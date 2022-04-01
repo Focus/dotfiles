@@ -20,6 +20,7 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'heavenshell/vim-pydocstring', { 'do': 'make install' }
 Plugin 'fatih/vim-go', { 'do': ':GoInstallBinaries' }
 Plugin 'jpalardy/vim-slime'
+Plugin 'Yggdroot/indentLine'
 if has('nvim')
   Plugin 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
   Plugin 'zchee/deoplete-jedi'
@@ -49,8 +50,8 @@ set nocompatible              " be iMproved, required
 set t_Co=256
 filetype on                  " required
 set bg=dark
-colorscheme onedark
 let g:airline_theme='simple'
+colorscheme onedark
 "colorscheme gruvbox
 "colorscheme onedark
 "set background=dark
